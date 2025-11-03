@@ -96,3 +96,7 @@ This project was developed as a **hands-on web development exercise** to demonst
 ### Edit Project
 ![6](https://user-images.githubusercontent.com/44197887/87572539-555c1880-c6e9-11ea-8aa2-f7d76b49634a.JPG)
 ![7](https://user-images.githubusercontent.com/44197887/87572558-5b51f980-c6e9-11ea-8710-439aa4d6e429.JPG)
+
+--
+
+*If you find this research insightful, please consider giving the repository a star on GitHub!*
