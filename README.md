@@ -1,9 +1,83 @@
-# ProjectManagement-Portal
-This is a web page that can be used to manage data entries such as company project details. 
+# Project Management Portal
 
-Used languages: HTML, CSS, PHP, JS & MySQL 
+A **web-based Project Management Portal** designed to streamline the process of managing company project data efficiently.  
+This application allows users to add, view, update, and delete project information, providing a centralized platform for organizing and monitoring company projects.
 
-## Structure 
+---
+
+## Features
+
+-  **Project Data Management** — Add, edit, and remove project records easily.  
+-  **Dashboard Overview** — Get a clear overview of all projects in one place.  
+-  **Search & Filter** — Quickly find specific projects using search and filter functionality.  
+-  **User-Friendly Interface** — Simple and intuitive web interface for smooth navigation.  
+-  **Database Integration** — Securely stores project details using MySQL.
+
+---
+
+## Technologies Used
+
+| Component | Technology |
+|------------|-------------|
+| Frontend | HTML, CSS, JavaScript |
+| Backend | PHP |
+| Database | MySQL |
+
+---
+
+## Installation & Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/<your-username>/project-management-portal.git
+   cd project-management-portal
+
+2. **Set up the database**
+
+- Create a MySQL database (e.g., project_portal).
+- Import the SQL file from /database/project_portal.sql (if available) to set up tables.
+
+3. **Configure the database connection**
+
+- Open the config.php file.
+- Update it with your local database credentials:
+```bash
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "project_portal";
+```
+
+4. **Run the application**
+
+- Place the project folder in your web server directory (e.g., htdocs for XAMPP).
+- Start Apache and MySQL from your local server tool (XAMPP/WAMP).
+- Open your browser and navigate to:
+```bash
+http://localhost/project-management-portal
+```
+
+## Project Structure
+```bash
+project-management-portal/
+│
+├── assets/               # CSS, JS, and image files
+├── includes/             # Reusable PHP components
+├── database/             # SQL dump file (optional)
+├── index.php             # Main landing page
+├── config.php            # Database configuration
+└── README.md             # Project documentation
+```
+
+## Purpose
+
+This project was developed as a **hands-on web development exercise** to demonstrate:
+
+- CRUD operations with PHP & MySQL
+- Frontend–backend integration
+- Clean UI design principles
+
+## Project Flow 
 ![Capture](https://user-images.githubusercontent.com/44197887/87570888-e7aeed00-c6e6-11ea-87e9-ed4abbd2f192.JPG)
 
 ## Designed Interfaces: 
