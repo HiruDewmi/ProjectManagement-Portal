@@ -29,7 +29,7 @@ This application allows users to add, view, update, and delete project informati
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/<your-username>/project-management-portal.git
+   git clone https://github.com/HiruDewmi/project-management-portal.git
    cd project-management-portal
 
 2. **Set up the database**
